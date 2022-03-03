@@ -25,3 +25,7 @@ http://127.0.0.1:8080/captcha/index
 #### 特技
 https://github.com/SmileyWin/captcha
 
+
+#### 参考
+1. https://gitee.com/anji-plus/captcha
+2. https://gitee.com/gester/captcha
