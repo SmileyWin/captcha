@@ -1,0 +1,22 @@
+server:
+  port: 8080
+spring:
+  freemarker:
+    allow-request-override: false
+    cache: true
+    check-template-location: true
+    charset: UTF-8
+    content-type: text/html
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: false
+  resources:
+    static-locations: ["/static/", "classpath:static/", "file:static/", "classpath:templates"]
+
+#验证码图片地址，需要改成你本地的地址
+captcha:
+  slide-verification-code:
+    path:
+      origin-image: classpath:static/targets
+      template-image: classpath:static/templates
+
